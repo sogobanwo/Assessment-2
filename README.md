@@ -1,4 +1,4 @@
-# RequireAssertRevertStatements
+# Smart Contract Management
 
 A simple contract demonstrating the interaction between a smart contract and a user interface (frontend)
 

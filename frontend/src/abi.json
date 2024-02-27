@@ -1,0 +1,88 @@
+[
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_countryName",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_yearOfIndepndence",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "inputs": [],
+    "name": "countryName",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "",
+        "type": "string"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "getCountryDetails",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "_countryName",
+        "type": "string"
+      },
+      {
+        "internalType": "uint256",
+        "name": "_yearOfIndepndence",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_countryName",
+        "type": "string"
+      }
+    ],
+    "name": "updateCountryName",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "_yearOfIndepndence",
+        "type": "uint256"
+      }
+    ],
+    "name": "updateYearOfIndependence",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "yearOfIndependence",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  }
+]
